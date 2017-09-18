@@ -30,6 +30,7 @@ puts "you are born in #{year_born}"
  # you can tack an an else statement on to the end of your if statement,
  # like so:
 
+puts "Type a number in"
 number = gets.to_i # the user types in a number
 
 if number > 0
@@ -39,7 +40,7 @@ else
 end
 
 # You can add additional options to your if/else statement using elsif:
-
+puts "You will need to input an X first and a Y value second"
 x = gets.to_i
 y = gets.to_i
 
