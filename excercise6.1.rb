@@ -57,15 +57,18 @@ end
 distance = 0
 walk = 1
 run = 5
+choice = ""
 
-while distance >= 0
-  puts "Lets go for a stroll. \n do you want to walk or run?
+while choice != "go home"
+  puts "\n Lets go for a stroll. \n do you want to walk or run?
   \n you can go home at any time to end the trip "
   choice = gets.chomp
   if choice == "walk"
     distance += walk
-  else
+  elsif choice == "run"
     distance += run
+  elsif choice !="go home"
+    puts " nice try buddy!!"
   end
-  puts "distance from home is #{distance}km"
+  puts "\n distance from home is #{distance}km"
 end
