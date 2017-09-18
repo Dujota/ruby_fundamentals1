@@ -68,4 +68,20 @@ puts 'Betty\'s pie shop'  # escape sequence required to output the single quote 
 # by wrapping it in special characters like so: #{code goes here}
 
 puts "Ada Lovelace lived for #{1852 - 1815} years"
-# ada lvied for 37 years 
+# ada lvied for 37 years
+
+# Escape Sequences : Below are some of the more common escape sequences that can appear inside of double quotes:
+
+# \" double quote
+# \\ single backslash
+# \a bell/alert
+# \b backspace
+# \r carriage return
+# \n newline
+# \s space
+# \t tab
+
+puts "Hello\t\tworld"
+puts "Hello\b\b\b\b\bGoodbye world"
+puts "Hello\rStart over world"
+puts "1. Hello\n2. World"
