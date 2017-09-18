@@ -46,3 +46,14 @@ my_number == your_number
 
 my_number != you_number
 # true
+
+# how Ruby deals with assignment:
+
+amount = 20
+new_amount = amount
+new_amount             # 20
+
+amount = "twenty"
+
+amount                 #  "twenty"
+new_amount             # 20
