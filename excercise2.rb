@@ -16,3 +16,5 @@ puts "this is a string added to integer #" + 5.to_s
 puts "the result of 45628 multiplied by 7839 is #{45628*7839}"
 
 puts (10 < 20 && 30 < 20) || !(10 == 11)
+
+# Part 2 b-b
