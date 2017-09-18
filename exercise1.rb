@@ -54,3 +54,8 @@ puts "hello word"
 
 puts "Betty's pie shop"
 puts 'Betty\'s pie shop'  # escape sequence required to output the single quote '
+# Single quotes only support two escape sequences.
+
+# \' single quote  and \\ single backslash
+# Except for these two escape sequences,
+# all other characters between single quotes are treated literally.
