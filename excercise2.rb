@@ -101,3 +101,11 @@ counter = counter + 1
 puts counter                   # counter is now 26
 
 count +=1 # 27 is output
+
+# another example:
+amount = 1
+amount +=10
+amount # 11
+
+amount = 30
+amount -=5 # 25
