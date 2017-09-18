@@ -57,3 +57,47 @@ amount = "twenty"
 
 amount                 #  "twenty"
 new_amount             # 20
+
+# In the above example, we set amount to the value 20.
+
+# We then set new_amount to 20 (because amount -> 20).
+
+# We then decide to change amount to contain the value "twenty" instead, but we haven't changed new_amount.
+
+# more examples:
+
+animal = "cats"
+number = 20
+location = "the yard"
+
+"There are #{number} #{animals} in #{location}!"
+who = "Mrs. Peacock"
+where = "the library"
+what = "rope"
+
+accusation = "It was #{who} in #{where} with the #{what}."
+
+accusation
+
+
+# computations on variables do not change the value of original variables
+
+count = 25
+#25
+puts count + 1
+#26
+puts count
+#25
+# We are not actually assigning a new value to counter.
+# We're simply calculating the sum of 1 and the value in counter.
+
+
+# Alternatively we can reassign counter to the result of that calculation:
+
+counter = counter + 1
+
+#  can use count +=1
+
+puts counter                   # counter is now 26
+
+count +=1 # 27 is output
