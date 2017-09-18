@@ -9,4 +9,9 @@ user_name = gets
 puts "Hey there, #{user_name}"
 
 # gets vs gets.chomp
-# chomp removes unwanted whitespace from the end of your user's input. 
+# chomp removes the line break from the end of your user's input.
+
+puts "How old are you this year?"
+age = gets
+year_born = (2017 - age.to_i)
+puts "you are born in #{year_born}"
