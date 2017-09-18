@@ -24,3 +24,16 @@ puts "you are born in #{year_born}"
 # if my_number > 1
 #   puts "The number is greater than 1"
 # end
+
+# If you want to provide two different blocks of code for your if statement to
+ # choose between — ie. "do this thing or else do this other thing" —
+ # you can tack an an else statement on to the end of your if statement,
+ # like so:
+
+# number = gets.to_i # the user types in a number
+#
+# if number > 0
+#   puts "#{number} is positive" # this line executes if the user enters a positive number
+# else
+#   puts "#{number} is negative" # this line executes if the user enters a negative number
+# end
