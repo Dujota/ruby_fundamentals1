@@ -59,3 +59,13 @@ puts 'Betty\'s pie shop'  # escape sequence required to output the single quote 
 # \' single quote  and \\ single backslash
 # Except for these two escape sequences,
 # all other characters between single quotes are treated literally.
+
+
+# Interpolation - allowed to enter ruby code into a string as long as
+# double quotes are being used
+
+# String interpolation is a means of embedding Ruby code into a string
+# by wrapping it in special characters like so: #{code goes here}
+
+puts "Ada Lovelace lived for #{1852 - 1815} years"
+# ada lvied for 37 years 
