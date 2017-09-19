@@ -57,30 +57,22 @@ end
 distance = 0
 walk = 1
 run = 5
-energy = 10
 choice = "" #empty string because we need something to evaluate on the if
+energy = 10
 
-while energy > 0
-
-  while choice != "go home"
-
-    puts "\n Lets go for a stroll. \n do you want to walk or run?
-    \n you can go home at any time to end the trip "
-
-    choice = gets.chomp
-
-    if choice == "walk"
-      distance += walk
-
-    elsif choice == "run"
-      distance += run
-
-    elsif choice !="go home"
-      puts " nice try buddy!!"
-
-    end
-
-    puts "\n distance from home is #{distance}km"
+while choice != "go home" && energy > 0
+  puts "\n Lets go for a stroll. \n do you want to walk or run?
+  \n you can go home at any time to end the trip "
+  choice = gets.chomp
+  if choice == "walk"
+    distance += walk
+  elsif choice == "run"
+    distance += run
+  elsif choice !="go home"
+    puts " nice try buddy!!"
   end
-
+  energy = energy - distance
+  puts "\n distance from home is #{distance}km \n
+  Your energey level is #{energy}. \n If you crash or go below 0
+  you can't move any more :P"
 end
