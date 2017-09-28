@@ -57,7 +57,8 @@ end
 distance = 0
 walk = 1
 run = 5
-choice = ""
+choice = "" #empty string because we need something to evaluate on the if
+
 
 while choice != "go home"
   puts "\n Lets go for a stroll. \n do you want to walk or run?
